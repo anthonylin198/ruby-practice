@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # handles all the routes for friends
   resources :friends
   get 'home/about'
